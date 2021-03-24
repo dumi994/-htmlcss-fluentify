@@ -97,7 +97,9 @@ nav{
 
 .empty:hover{
     background-color: #7CBB02;
-    color:white
+    color:white;
+    border:0;
+
 }
 
 .solid:hover{
@@ -136,4 +138,51 @@ nav{
     margin:auto;
     color:#808080;
     
+}
+
+
+.contenuto_principale{
+    margin:auto;
+    width:80%;
+    /* height:400px;
+    background-color:red; */
+}
+
+.left_content, .central_content, .right_content{
+    display: inline-block;
+    float:left;
+    width:32%;
+}
+
+.central_content{
+    margin:0 1.6% 0 1.7%;
+}
+
+.right_content{
+    float:right;
+    display:inline-block;
+}
+
+.profile{
+   width:100%;
+   height:200px; 
+}
+.line{
+    content='';
+    width:75px;
+    height:2px;
+    background-color: #808080;
+    margin:auto;
+}
+
+.left_content, .central_content, .right_content>h2{
+    color:#7CBB02;
+    text-align: center;
+    margin:0 20 20 0;
+}
+
+.testo_grigio{
+    text-align: center;
+    margin:20px;
+    color:grey;
 }
