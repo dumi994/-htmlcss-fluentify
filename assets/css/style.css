@@ -105,7 +105,7 @@ nav{
 }
 /* /navbar */
 
-.titolo{
+.titolo_grande{
     font-size:25px;
     width:600px;
     color:white;
@@ -118,4 +118,21 @@ nav{
     padding:15px;
     margin-top: 30px;
     width:200px;
+    border-radius: 5px;
+}
+
+.titolo_piccolo{
+    text-align: center;
+    height:150px;
+    background-color: #D3D3D3;
+}
+.titolo_piccolo>h2{
+    margin:auto;
+    padding-top:40px;
+}
+
+.titolo_piccolo>span{
+    margin:auto;
+    color:#808080;
+    
 }
