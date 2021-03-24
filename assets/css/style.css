@@ -20,14 +20,25 @@ a{
 .dbg header{
     height:550px;
     background-color: blue;
+    position:relative;
 }
 
+
 body{
+  /*   min-width: 800px; */
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     background-color:aliceblue;
 }
+/* header */
 
+header{
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+}
+/* navbar */
 nav{
     margin: auto;
     width:80%;
@@ -65,7 +76,7 @@ nav{
     float:left;
 }
 
-.left_menu, .right_menu{
+.left_menu, .right_menu, .bottone_titolo{
     font-size: 14px;
     text-transform: uppercase;
 }
@@ -76,8 +87,8 @@ nav{
 }
 
 .empty{
-    color:black;
-    background-color: white;
+    color:white;
+    border: 1px solid white;
 }
 
 .solid{
@@ -91,4 +102,20 @@ nav{
 
 .solid:hover{
     background-color: greenyellow;
+}
+/* /navbar */
+
+.titolo{
+    font-size:25px;
+    width:600px;
+    color:white;
+    position:absolute;
+    bottom:30%;
+    left:10%;
+}
+
+.bottone_titolo{ 
+    padding:15px;
+    margin-top: 30px;
+    width:200px;
 }
