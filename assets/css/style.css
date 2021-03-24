@@ -65,7 +65,7 @@ nav{
     display: inline-block;
     float:left;
     text-align: right;
-    margin-left: 100px;
+    margin-left: 150px;
 
 }
 
@@ -127,6 +127,7 @@ nav{
     background-color: #D3D3D3;
 }
 .titolo_piccolo>h2{
+    font-size: 20px;
     margin:auto;
     padding-top:40px;
 }
