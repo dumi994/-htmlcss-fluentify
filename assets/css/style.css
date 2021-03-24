@@ -9,3 +9,86 @@
     display: table;
     clear: both;
 }
+
+a{
+    color:white;
+    margin:10px;
+    text-decoration: none;
+    line-height: 10px;
+}
+
+.dbg header{
+    height:550px;
+    background-color: blue;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color:aliceblue;
+}
+
+nav{
+    margin: auto;
+    width:80%;
+  /*   background-color: red; */
+}
+
+.logo{
+    padding:5px;
+    display: inline-block;
+    line-height: 50px;
+}
+.logo>img{
+    float:left;
+}
+.left_menu{
+    display: inline-block;
+    float:left;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+.right_menu{
+    width:auto;
+    display: inline-block;
+    float:left;
+    text-align: right;
+    margin-left: 100px;
+
+}
+
+.left_menu a:first-child{
+    margin-left: 50px;
+}
+.left_menu a{
+    float:left;
+}
+
+.left_menu, .right_menu{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn{
+    padding:3px 8px;
+    border-radius: 5px;
+}
+
+.empty{
+    color:black;
+    background-color: white;
+}
+
+.solid{
+    background-color: #7CBB02;
+}
+
+.empty:hover{
+    background-color: #7CBB02;
+    color:white
+}
+
+.solid:hover{
+    background-color: greenyellow;
+}
